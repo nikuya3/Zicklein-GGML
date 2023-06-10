@@ -1,0 +1,11 @@
+datasets=2.12.0
+loralib==0.1.1
+sentencepiece==0.1.98
+transformers==4.31.0
+accelerate==0.20.3
+bitsandbytes==0.39.0
+peft==0.2.0
+gradio==3.34.0
+appdirs==1.4.4
+scipy==1.10.1
+protobuf==3.20.0
