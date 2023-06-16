@@ -1,5 +1,7 @@
 # Zicklein-GGML
 
+![a lean, scrawny llama at the oktoberfest](zicklein-ggml.jpg)
+
 [GGML](https://github.com/ggerganov/ggml) conversion of [Zicklein](https://github.com/avocardio/zicklein) (a German [Alpaca](https://github.com/tatsu-lab/stanford_alpaca) LoRa for [LLaMA](https://github.com/facebookresearch/llama)). Compatible with [llama.cpp](https://github.com/ggerganov/llama.cpp) version master-2d43387 or later.
 
 The model is stored on the [HuggingFace 🤗 Hub](https://huggingface.co/nikuya3/alpaca-lora-7b-german-base-51k-ggml).
