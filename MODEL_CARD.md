@@ -3,7 +3,7 @@ license: apache-2.0
 ---
 
 <p align="center" width="100%">
-<img src="zicklein-ggml.jpg" alt="a lean, scrawny llama at the oktoberfest" style="width: 20%; min-width: 300px; display: block; margin: auto;">
+<img src="https://huggingface.co/nikuya3/alpaca-lora-7b-german-base-51k-ggml/raw/main/zicklein-ggml.jpg" alt="a lean, scrawny llama at the oktoberfest" style="width: 20%; min-width: 300px; display: block; margin: auto;">
 </p>
 
 # Zicklein-GGML
