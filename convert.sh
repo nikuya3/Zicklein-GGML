@@ -1,8 +1,10 @@
+#!/bin/sh
 mkdir zicklein-conversion && cd zicklein-conversion
 python -m venv venv
 source venv/bin/activate
 pip install -r ../requirements.txt
 
+git lfs install
 git clone https://huggingface.co/decapoda-research/llama-7b-hf
 git clone https://github.com/avocardio/Zicklein
 cd Zicklein
@@ -15,6 +17,7 @@ cd ..
 
 # prepare output model dir (copy config and tokenizer)
 mkdir zicklein-ggml-output
+cp ../MODEL_CARD.md zicklein-ggml-output/README.md
 cp Zicklein/ckpt/params.json llama-7b-hf/*.json llama-7b-hf/tokenizer.model zicklein-ggml-output
 rm zicklein-ggml-models/pytorch_model.bin.index.json
 
